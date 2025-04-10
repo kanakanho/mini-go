@@ -130,4 +130,4 @@ dist
 
 .DS_Store
 
-docker/postgres/**
+docker/postgres/data/**
