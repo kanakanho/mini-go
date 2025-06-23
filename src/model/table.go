@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"log"
 
-	"github.com/kajiLabTeam/mr-platform-user-management-server/lib"
+	"github.com/kanakanho/mini-go/lib"
 )
 
 var db = connectDB()

@@ -5,8 +5,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/kajiLabTeam/mr-platform-user-management-server/common"
-	"github.com/kajiLabTeam/mr-platform-user-management-server/model"
+	"github.com/kanakanho/mini-go/common"
+	"github.com/kanakanho/mini-go/model"
 )
 
 func DeleteUser(w http.ResponseWriter, r *http.Request) {

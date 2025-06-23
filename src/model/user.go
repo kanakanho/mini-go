@@ -3,7 +3,7 @@ package model
 import (
 	"database/sql"
 
-	"github.com/kajiLabTeam/mr-platform-user-management-server/common"
+	"github.com/kanakanho/mini-go/common"
 )
 
 func ExistUser(userId string) (bool, error) {

@@ -13,5 +13,9 @@ $ make up
 ## リクエストを送る
 
 ```sh
-$ yarn client.mts
+$ yarn i
+```
+
+```sh
+$ yarn start
 ```

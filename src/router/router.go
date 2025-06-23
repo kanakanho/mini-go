@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/kajiLabTeam/mr-platform-user-management-server/controller"
+	"github.com/kanakanho/mini-go/controller"
 	_ "github.com/lib/pq"
 )
 

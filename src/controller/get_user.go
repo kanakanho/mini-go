@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/kajiLabTeam/mr-platform-user-management-server/model"
+	"github.com/kanakanho/mini-go/model"
 )
 
 func GetUser(w http.ResponseWriter, r *http.Request) {

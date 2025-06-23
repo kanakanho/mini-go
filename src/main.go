@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/kajiLabTeam/mr-platform-user-management-server/router"
+	"github.com/kanakanho/mini-go/router"
 )
 
 func main() {

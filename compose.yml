@@ -13,7 +13,7 @@ services:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
       POSTGRES_DB: ${POSTGRES_DB}
     networks:
-      - senryu-networks
+      - mini-go-networks
     healthcheck:
       test: "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB} || exit 1"
       interval: 10s
@@ -37,9 +37,9 @@ services:
     ports:
       - 8084:8000
     networks:
-      - senryu-networks
+      - mini-go-networks
     restart: always
 
 networks:
-  senryu-networks:
+  mini-go-networks:
     driver: bridge

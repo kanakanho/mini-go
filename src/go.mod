@@ -1,4 +1,4 @@
-module github.com/kajiLabTeam/mr-platform-user-management-server
+module github.com/kanakanho/mini-go
 
 go 1.22.5
 
